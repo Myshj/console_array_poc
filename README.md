@@ -60,6 +60,12 @@ If the program is started without pipelined input, it will stop immediately, as 
 
 # Possible improvements
 
+## Check endianness
+
+Big endian in Windows environment (I think so in any case).
+
+Should be the same for all envs.
+
 ## Check input/output modes
 
 I'm not sure they are set to `binary` properly.
@@ -77,3 +83,13 @@ So that you can store many datatypes.
 ## Work with errors better
 
 So that there may be nothing unrecoverable from.
+
+# Examples
+
+In the `examples` folder.
+
+`setAt.command` contains actually 3 commands:
+
+1. Get the current value
+2. Reassign it
+3. Get it again to see if something changed
