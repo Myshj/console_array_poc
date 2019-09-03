@@ -10,8 +10,8 @@ Has binary protocol and understands the next commands:
 | ---|---------| ---------------|--------------|
 | 1  | Stop  | 1 | 1|
 | 2  | Get size  | 1| 8|
-| 3  | Get element at position  | 2| 2|
-| 4  | Set element at position  | 3| 1|
+| 3  | Get element at position  | 9| 2|
+| 4  | Set element at position  | 10| 1|
 
 Each command has its structure and is followed by a reply.
 
